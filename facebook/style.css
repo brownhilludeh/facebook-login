@@ -1,0 +1,39 @@
+body {
+    background-color: #D4D8E8;
+}
+
+.container {
+    padding: 5px 5%;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    border: red solid 2px;
+
+}
+
+.text {
+    border: green 2px solid;
+    /* align-items: center; */
+    margin-left: 70px;
+}
+
+.text img {
+    width: 320px;
+    padding-top: 10px;
+}
+
+.text p {
+    border: red solid;
+    /* margin-top: -100px; */
+}
+
+.login {
+    /* flex-direction: column; */
+    border: springgreen solid;
+}
+
+.login .login-card {
+    height: 350px;
+    background-color: #fff;
+}
