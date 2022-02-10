@@ -1,37 +1,131 @@
 /* Disclaimer  this is solely used for academic purpose.*/
-body { 
-    background-color: #D4D8E8;
+body{
+    background-color: #dfe3ee;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    padding: 5px 5%;
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 5%;
     display: flex;
-    height: 80vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+.text-section{
+    width: 50%;
+    padding: 35px;
+    margin-left: 60px;
     align-items: center;
-    justify-content: space-between;
-    border: red solid 2px;
 
 }
-
-.text {
-    border: green 2px solid;
-    margin-left: 70px;
+.text-section img{
+    width: 230px;
+    margin-top: 95px;
+    margin-left: 5px;
 }
+.text-section .text{
+    font-size: 28.5px;
+    width: 100%;
 
-.text img {
-    width: 320px;
-    padding-top: 10px;
+    margin-top: 20px;
+
 }
+.login-section{
+    width: 50%;
+    /* align-items: center; */
+    margin-top: -20px;
+    margin-left: -20px;
+    /* justify-content: center; */
 
-.text p {
-    border: red solid;
+
 }
-
-.login {
-    border: springgreen solid;
+.card{
+    align-items: center;
+    flex-direction: flex    ;
 }
-
-.login .login-card {
-    height: 350px;
+.end-tag{
+    text-align: center;
+    margin-top: -35px;
+    font-size: 13px;
+    margin-left: -40px;
+}
+.login-section .card{
     background-color: #fff;
+    margin: 70px;
+    height: 63vh;
+    width: 390px;
+    border-radius: 10px;
+    box-shadow: 0 8px 36px 0 rgba(0, 0, 0, 0.2);
+}
+form{
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+ }
+.form-control{
+    /* width: ; */
+     align-items: center;
+    justify-content: center;
+}
+.form-login{
+    width: 50px;
+}
+.form-control{
+    margin-bottom: 15px;
+} 
+.form-control input{
+    color: #0f0f0f;
+    width: 100%;
+    border-radius: 8px;
+}
+input{
+    font-size: 16px;
+    padding: 15px 10px;
+}
+input :hover{
+    border: #a9bdf3 solid 1px;
+} 
+button{
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+font-size: 18px;
+font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    border: none;
+
+}
+hr{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+p a{
+    font-size: 14px;
+}
+.create-btn{
+    background-color: green;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.create-btn a{
+    color: white;
+}
+.login-btn{
+    background-color: #2852c5;
+    width: 100%;
+    color: white;
+}
+.login-btn a{
+    color: white;
+}
+p{
+    text-align: center;
 }
