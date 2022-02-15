@@ -1,8 +1,9 @@
-body{
+body {
     background-color: #dfe3ee;
     color: #000;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 * {
     box-sizing: border-box;
 }
